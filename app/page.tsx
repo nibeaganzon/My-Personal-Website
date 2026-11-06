@@ -383,52 +383,64 @@ export default function Home() {
             </h2>
           </div>
 
+         <article className="education-card">
+            <a
+              href="https://www.addu.edu.ph/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="education-icon addu-logo"
+              aria-label="Visit Ateneo de Davao University website"
+            >
+              <Image
+                src="/images/addulogo.jpg"
+                alt="Ateneo de Davao University logo"
+                width={100}
+                height={100}
+                className="addu-logo-image"
+              />
+            </a>
+
+            <div>
+              <p className="project-category">EDUCATION</p>
+              <h3>Ateneo de Davao University</h3>
+              <p className="education-degree">
+                Bachelor&apos;s Degree in Computer Engineering
+              </p>
+              <p className="education-description">
+                A foundation in engineering principles, systems thinking,
+                programming, and analytical problem-solving.
+              </p>
+            </div>
+          </article>
+
           <article className="education-card">
-  <div className="education-icon addu-logo">
-    <Image
-      src="/images/addulogo.jpg"
-      alt="Ateneo de Davao University logo"
-      width={100}
-      height={100}
-      className="addu-logo-image"
-    />
-  </div>
+            <a
+              href="https://axxis-consulting.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="education-icon axxis-logo"
+              aria-label="Visit AXXIS Consulting website"
+            >
+              <Image
+                src="/images/axxislogo.jpeg"
+                alt="AXXIS Consulting logo"
+                width={120}
+                height={80}
+                className="axxis-logo-image"
+              />
+            </a>
 
-  <div>
-    <p className="project-category">EDUCATION</p>
-    <h3>Ateneo de Davao University</h3>
-    <p className="education-degree">
-      Bachelor&apos;s Degree in Computer Engineering
-    </p>
-    <p className="education-description">
-      A foundation in engineering principles, systems thinking,
-      programming, and analytical problem-solving.
-    </p>
-  </div>
-</article>
-
-          <article className="education-card">
-  <div className="education-icon axxis-logo">
-    <Image
-      src="/images/axxislogo.jpeg"
-      alt="AXXIS Consulting logo"
-      width={120}
-      height={80}
-      className="axxis-logo-image"
-    />
-  </div>
-
-  <div>
-    <p className="project-category">PROFESSIONAL EXPERIENCE</p>
-    <h3>AXXIS Consulting</h3>
-    <p className="education-degree">SAP Consultant</p>
-    <p className="education-description">
-      Working at the intersection of business processes and
-      enterprise technology, with a focus on SAP solutions and
-      client requirements.
-    </p>
-  </div>
-</article>
+            <div>
+              <p className="project-category">PROFESSIONAL EXPERIENCE</p>
+              <h3>AXXIS Consulting</h3>
+              <p className="education-degree">SAP Consultant</p>
+              <p className="education-description">
+                Working at the intersection of business processes and
+                enterprise technology, with a focus on SAP solutions and
+                client requirements.
+              </p>
+            </div>
+          </article>
         </div>
       </section>
 
